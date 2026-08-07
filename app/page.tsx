@@ -3,6 +3,7 @@ import Counter from "@/components/Counter";
 import Section from "@/components/Section";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
+import Gallery from "@/components/Gallery";
 import Services from "@/components/Services";
 import { services } from "@/data/services";
 
@@ -27,6 +28,8 @@ export default function Home() {
       />
 
       <Services services={services} />
+
+      <Gallery />
 
       <Section title="Nuestro aprendizaje">
         <p className="text-slate-300">
