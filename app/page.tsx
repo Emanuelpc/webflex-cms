@@ -36,17 +36,6 @@ export default function Home() {
       <Testimonials testimonials={testimonials} />
       <Contact/>
       
-
-      {/*<Section title="Nuestro aprendizaje">
-        <p className="text-slate-300">
-          Estamos construyendo WebFlex CMS paso a paso
-          mientras aprendemos desarrollo web moderno.
-        </p>
-
-        <div className="mt-6">
-          <Counter />
-        </div>
-      </Section>*/}
     </main>
     <Footer/>
     </>
