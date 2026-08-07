@@ -10,7 +10,7 @@ export default function About({
   secondaryDescription,
 }: AboutProps) {
   return (
-    <section className="border-y border-slate-800 bg-slate-900/50">
+    <section id="about" className="border-y border-slate-800 bg-slate-900/50">
       <div className="mx-auto max-w-5xl px-6 py-20">
         <div className="grid gap-10 md:grid-cols-2 md:items-center">
           

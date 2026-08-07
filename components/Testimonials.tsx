@@ -9,7 +9,7 @@ export default function Testimonials({
   testimonials,
 }: TestimonialsProps) {
   return (
-    <section className="bg-slate-900/50">
+    <section id="testimonials" className="bg-slate-900/50">
       <div className="mx-auto max-w-5xl px-6 py-20">
 
         <div className="mb-10 text-center">

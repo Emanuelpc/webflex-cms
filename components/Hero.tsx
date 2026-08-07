@@ -10,7 +10,7 @@ export default function Hero({
   description,
 }: HeroProps) {
   return (
-    <section className="mx-auto max-w-5xl px-6 py-24 text-center">
+    <section id="inicio" className="mx-auto max-w-5xl px-6 py-24 text-center">
       <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-blue-400">
         {badge}
       </p>

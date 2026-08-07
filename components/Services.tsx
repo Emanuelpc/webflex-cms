@@ -9,7 +9,7 @@ export default function Services({
   services,
 }: ServicesProps) {
   return (
-    <section className="mx-auto max-w-5xl px-6 py-20">
+    <section id="services" className="mx-auto max-w-5xl px-6 py-20">
       <h2 className="mb-8 text-3xl font-bold">
         Servicios
       </h2>

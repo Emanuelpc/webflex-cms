@@ -15,10 +15,7 @@ export default function Home() {
   return (
     <>
     <main className="min-h-screen bg-slate-950 text-white">
-      <Navbar
-        nombre="WebFlex CMS"
-        contacto="Contáctanos"
-      />
+      <Navbar/>
 
       <Hero
         badge="Proyecto educativo"
