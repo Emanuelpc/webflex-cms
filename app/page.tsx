@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Counter from "@/components/Counter";
 import Section from "@/components/Section";
 import Hero from "@/components/Hero";
+import About from "@/components/About";
 import Services from "@/components/Services";
 import { services } from "@/data/services";
 
@@ -17,6 +18,12 @@ export default function Home() {
         badge="Proyecto educativo"
         title="WebFlex CMS"
         description="Una plataforma para crear y administrar sitios web personalizables desde un panel de administración."
+      />
+
+      <About
+        title="Una plataforma pensada para ser flexible"
+        description="WebFlex CMS es un proyecto educativo y personal enfocado en aprender cómo construir una plataforma web moderna, reutilizable y configurable."
+        secondaryDescription="La idea es que diferentes tipos de negocios puedan utilizar una misma estructura y personalizar su contenido desde un panel de administración."
       />
 
       <Services services={services} />
