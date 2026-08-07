@@ -6,6 +6,8 @@ import About from "@/components/About";
 import Gallery from "@/components/Gallery";
 import Services from "@/components/Services";
 import { services } from "@/data/services";
+import Testimonials from "@/components/Testimonials";
+import { testimonials } from "@/data/testimonials";
 
 export default function Home() {
   return (
@@ -31,7 +33,9 @@ export default function Home() {
 
       <Gallery />
 
-      <Section title="Nuestro aprendizaje">
+      <Testimonials testimonials={testimonials} />
+
+      {/*<Section title="Nuestro aprendizaje">
         <p className="text-slate-300">
           Estamos construyendo WebFlex CMS paso a paso
           mientras aprendemos desarrollo web moderno.
@@ -40,7 +44,7 @@ export default function Home() {
         <div className="mt-6">
           <Counter />
         </div>
-      </Section>
+      </Section>*/}
     </main>
   );
 }
