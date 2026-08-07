@@ -8,9 +8,12 @@ import Services from "@/components/Services";
 import { services } from "@/data/services";
 import Testimonials from "@/components/Testimonials";
 import { testimonials } from "@/data/testimonials";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
+    <>
     <main className="min-h-screen bg-slate-950 text-white">
       <Navbar
         nombre="WebFlex CMS"
@@ -34,6 +37,8 @@ export default function Home() {
       <Gallery />
 
       <Testimonials testimonials={testimonials} />
+      <Contact/>
+      
 
       {/*<Section title="Nuestro aprendizaje">
         <p className="text-slate-300">
@@ -46,5 +51,7 @@ export default function Home() {
         </div>
       </Section>*/}
     </main>
+    <Footer/>
+    </>
   );
 }
